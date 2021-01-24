@@ -19,4 +19,17 @@ Python下PIL, OpenCV, SKImage图像的相互转换（https://blog.csdn.net/u0138
 (1)2021/01/19 必读 |谷歌提出「元伪标签」半监督学习方法，将ImageNet的top-1提升到90.2% https://hub.baai.ac.cn/view/5947  
 (2)UIUC韩家炜团队发文：文本分类只需标签名称，不需要任何标注数据 | EMNLP 2020 https://hub.baai.ac.cn/view/5972  
 (3)共享单车站点规划 | 基于门控图神经网络对共享单车停放进行动态管理 https://hub.baai.ac.cn/view/5976  
-(4)2021/01/20 必读 | CVPR 2021评审出炉，评审员奇葩意见遭热议 https://hub.baai.ac.cn/view/5968
+(4)2021/01/20 必读 | CVPR 2021评审出炉，评审员奇葩意见遭热议 https://hub.baai.ac.cn/view/5968  
+## 2021.1.24
+(1)T-PAMI 2021 | **换个损失函数就能实现数据扩增**(语义层面的数据增强)？https://hub.baai.ac.cn/view/6013  
+(2)trian img size必须和test img size**一致**  
+(3)AI跳舞哪家强？**谷歌**3D舞者闻**歌**起**舞**，挑战**DanceNet**(多模态训练) https://mp.weixin.qq.com/s/duxL22Gohnj9SfSU3YmQfw  
+论文地址：https://arxiv.org/pdf/2101.08779v1.pdf  
+项目地址：https://google.github.io/aichoreographer/  
+(4)AIST++数据集， AIST++ 是一个大规模 3D 舞蹈动作数据集，包含大量伴随音乐的3D舞蹈动作。其中每一帧都具备以下额外标注：  
+9 种视角，包括摄像机的内外参数；  
+17 种 COCO 格式的人类关节位置，包含 2D 和 3D 形式；  
+24 个 SMPL 姿势参数，以及全局扩展和平移。  
+数据集地址：https://google.github.io/aistplusplus_dataset/  
+(5)**目标检测Anchor**是什么？怎么科学设置？人人都能彻底搞懂的Anchor深度解析 https://mp.weixin.qq.com/s/Qvjk7mz8d9lxeyIMND1mPA  
+**anchor只有跟你要检测的物体的大小和长宽比更贴近**，才能让模型的效果更好。YOLOv2版本开始使用**kmeans方法聚类**得到**合适的anchor**  
