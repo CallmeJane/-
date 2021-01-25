@@ -33,3 +33,10 @@ Python下PIL, OpenCV, SKImage图像的相互转换（https://blog.csdn.net/u0138
 数据集地址：https://google.github.io/aistplusplus_dataset/  
 (5)**目标检测Anchor**是什么？怎么科学设置？人人都能彻底搞懂的Anchor深度解析 https://mp.weixin.qq.com/s/Qvjk7mz8d9lxeyIMND1mPA  
 **anchor只有跟你要检测的物体的大小和长宽比更贴近**，才能让模型的效果更好。YOLOv2版本开始使用**kmeans方法聚类**得到**合适的anchor**  
+## 2021.1.25
+(1)动手学习深度学习 **mxnet** https://zh.d2l.ai/  
+(2)了解mxnet的fine tune https://zhuanlan.zhihu.com/p/42441251,  
+Fine-tuning a pre-trained model: 33 output nodes vs 17 https://github.com/MVIG-SJTU/AlphaPose/issues/187  
+(3)创建新的HDF5数据集 https://github.com/MVIG-SJTU/AlphaPose/issues/193，https://github.com/MVIG-SJTU/AlphaPose/issues/238  
+(4)alphapose的输出格式 https://github.com/MVIG-SJTU/AlphaPose/blob/pytorch/doc/output.md  
+因为前17个输出是COCO关键点（COCO有17个关键点），而其他16个是MPII关键点（MPII有16个关键点），所以有33个输出  
