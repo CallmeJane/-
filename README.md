@@ -40,3 +40,11 @@ Fine-tuning a pre-trained model: 33 output nodes vs 17 https://github.com/MVIG-S
 (3)创建新的HDF5数据集 https://github.com/MVIG-SJTU/AlphaPose/issues/193，https://github.com/MVIG-SJTU/AlphaPose/issues/238  
 (4)alphapose的输出格式 https://github.com/MVIG-SJTU/AlphaPose/blob/pytorch/doc/output.md  
 因为前17个输出是COCO关键点（COCO有17个关键点），而其他16个是MPII关键点（MPII有16个关键点），所以有33个输出  
+## 2021.1.26
+(1)**My Neural Network isn't working! What should I do?(经典)** http://theorangeduck.com/page/neural-network-not-working  
+(2)3d人体姿态检测 https://github.com/facebookresearch/VideoPose3D  
+(3)PIL(Python Imaging Library)教程 https://blog.csdn.net/yjwx0018/article/details/52852067  
+(4)每个任务的损失函数中学习另一个噪声参数（noise parameter） https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example-pytorch.ipynb  
+(5)如何利用深度学习模型实现多任务学习？这里有三点经验  https://zhuanlan.zhihu.com/p/56900939?utm_source=ZHShareTargetIDMore  
+
+
