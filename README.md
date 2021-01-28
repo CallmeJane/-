@@ -44,7 +44,11 @@ Fine-tuning a pre-trained model: 33 output nodes vs 17 https://github.com/MVIG-S
 (1)**My Neural Network isn't working! What should I do?(经典)** http://theorangeduck.com/page/neural-network-not-working  
 (2)3d人体姿态检测 https://github.com/facebookresearch/VideoPose3D  
 (3)PIL(Python Imaging Library)教程 https://blog.csdn.net/yjwx0018/article/details/52852067  
-(4)每个任务的损失函数中学习另一个噪声参数（noise parameter） https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example-pytorch.ipynb  
-(5)如何利用深度学习模型实现多任务学习？这里有三点经验  https://zhuanlan.zhihu.com/p/56900939?utm_source=ZHShareTargetIDMore  
-
+(4)每个任务的损失函数中学习另一个**噪声参数（noise parameter）** https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example-pytorch.ipynb  
+(5)如何利用深度学习模型实现**多任务学习**？这里有三点经验(loss,学习率)  https://zhuanlan.zhihu.com/p/56900939?utm_source=ZHShareTargetIDMore  
+## 2021.1.27 
+(1)目标检测｜综述：**通用**目标检测中的**遮挡**问题处理 https://hub.baai.ac.cn/view/6081  
+(2)Learning Deep Features for Discriminative Localization CAM 探究我们的CNN在学习图像的时候到底重点关注在哪个部分  
+(3)图像动态化｜ 用于视频会议的单样本自由视角动态人脸合成方法 https://hub.baai.ac.cn/view/6110  
+(4)开源项目｜**基于YOLO-V5**实现行人社交距离风险提示(附完整源码) https://mp.weixin.qq.com/s/uCb8EaoL0EXzUahXyC18vQ  
 
