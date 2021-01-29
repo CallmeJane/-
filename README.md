@@ -52,8 +52,8 @@ Fine-tuning a pre-trained model: 33 output nodes vs 17 https://github.com/MVIG-S
 (3)图像动态化｜ 用于视频会议的单样本自由视角动态人脸合成方法 https://hub.baai.ac.cn/view/6110  
 (4)开源项目｜**基于YOLO-V5**实现行人社交距离风险提示(附完整源码) https://mp.weixin.qq.com/s/uCb8EaoL0EXzUahXyC18vQ  
 ## 2021.1.28
-(1)对于新项目，首先重要的是**参数设置，参数设置，参数设置**（先看各个参数的作用，没弄明白不要加）
-(2)对于模型的调参，重要的是**先列好对比试验，再调整参数**（严格保证修改过的版本和未修改过版本的记录，做到不反复修改）
+(1)对于新项目，首先重要的是**参数设置，参数设置，参数设置**（先看各个参数的作用，没弄明白不要加）  
+(2)对于模型的调参，重要的是**先列好对比试验，再调整参数**（严格保证修改过的版本和未修改过版本的记录，做到不反复修改）  
 (3)argparse学习
 ```python
 #coding=utf-8
@@ -80,3 +80,11 @@ args=parser.parse_args()
 print(args.save_img)
 print(args.confidence)    #字典中存储的名称
 ```
+##2021.1.29
+(1)CNN与Transformer的强强联合！谷歌最新开源BoTNet，ImageNet达84.7%准确率 https://mp.weixin.qq.com/s/BlFlJsX65Jp4i0-5s_pkKA  
+(2)机器学习应用设计阶段的 10 个陷阱和 11 个最佳实践 https://mp.weixin.qq.com/s/PdsxhMfHjql9gkWKSD0olA  
+(3)深入理解renset https://blog.csdn.net/chenyuping333/article/details/82344334  
+resnet34和resnet50区别 基础block不同（目的是**减少参数**），前者是两个3*3，后者是1*1（降低通道）,3*3,1*1,且输出通道是前者的4倍      
+resnetv1和rensetv2区别 **conv,bn,relu的顺序不同**，前者是conv->bn->relu,后者是bn->relu->conv,并且下采样的位置不同，详见mxnet实现  
+(4)深度学习参数量的计算(**各个通道公用卷积核**) https://www.cnblogs.com/lllcccddd/p/10671879.html    
+(5)Darknet53网络结构图及代码实现(主要由卷积和残差1*1,3*3实现) https://blog.csdn.net/leiduifan6944/article/details/104857968  
