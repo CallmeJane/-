@@ -51,4 +51,32 @@ Fine-tuning a pre-trained model: 33 output nodes vs 17 https://github.com/MVIG-S
 (2)Learning Deep Features for Discriminative Localization CAM 探究我们的CNN在学习图像的时候到底重点关注在哪个部分  
 (3)图像动态化｜ 用于视频会议的单样本自由视角动态人脸合成方法 https://hub.baai.ac.cn/view/6110  
 (4)开源项目｜**基于YOLO-V5**实现行人社交距离风险提示(附完整源码) https://mp.weixin.qq.com/s/uCb8EaoL0EXzUahXyC18vQ  
+## 2021.1.28
+(1)对于新项目，首先重要的是**参数设置，参数设置，参数设置**（先看各个参数的作用，没弄明白不要加）
+(2)对于模型的调参，重要的是**先列好对比试验，再调整参数**（严格保证修改过的版本和未修改过版本的记录，做到不反复修改）
+(3)argparse学习
+```python
+#coding=utf-8
+import argparse
 
+parser=argparse.ArgumentParser(description='This is a arg')
+parser.add_argument("--verbose", help="increase output verbosity",
+                    action="store_true")
+parser.add_argument('--detector', dest='detector',
+                    help='detector name', default="yolo")
+parser.add_argument('--save_img', default=False, action='store_true',
+                    help='save result as image')
+parser.add_argument('--conf', dest='confidence', type=float, default=0.1,
+                    help='bounding box confidence threshold')
+
+#'--*' '-*':使用的名称
+#dest:字典中的名称
+#type:输入类型需正确
+#default:默认值
+#action
+#help:描述
+
+args=parser.parse_args()
+print(args.save_img)
+print(args.confidence)    #字典中存储的名称
+```
