@@ -80,11 +80,12 @@ args=parser.parse_args()
 print(args.save_img)
 print(args.confidence)    #字典中存储的名称
 ```
+
 ##2021.1.29
 (1)CNN与Transformer的强强联合！谷歌最新开源BoTNet，ImageNet达84.7%准确率 https://mp.weixin.qq.com/s/BlFlJsX65Jp4i0-5s_pkKA  
 (2)机器学习应用设计阶段的 10 个陷阱和 11 个最佳实践 https://mp.weixin.qq.com/s/PdsxhMfHjql9gkWKSD0olA  
 (3)深入理解renset https://blog.csdn.net/chenyuping333/article/details/82344334  
-resnet34和resnet50区别 基础block不同（目的是**减少参数**），前者是两个3*3，后者是1*1（降低通道）,3*3,1*1,且输出通道是前者的4倍      
-resnetv1和rensetv2区别 **conv,bn,relu的顺序不同**，前者是conv->bn->relu,后者是bn->relu->conv,并且下采样的位置不同，详见mxnet实现  
+**resnet34和resnet50区别** 基础block不同（目的是**减少参数**），前者是两个3*3，后者是1*1（降低通道）,3*3,1*1,且输出通道是前者的4倍      
+**resnetv1和rensetv2区别** **conv,bn,relu的顺序不同**，前者是conv->bn->relu,后者是bn->relu->conv,并且下采样的位置不同，详见mxnet实现  
 (4)深度学习参数量的计算(**各个通道公用卷积核**) https://www.cnblogs.com/lllcccddd/p/10671879.html    
 (5)Darknet53网络结构图及代码实现(主要由卷积和残差1*1,3*3实现) https://blog.csdn.net/leiduifan6944/article/details/104857968  
